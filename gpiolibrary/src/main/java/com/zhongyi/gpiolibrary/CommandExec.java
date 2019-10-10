@@ -19,7 +19,7 @@ public class CommandExec {
      * @param ledId gpio 编号
      * @return 成功true
      */
-    public static boolean execRedLed(int ledId) {
+    public static boolean execLed(int ledId) {
         return execCommand(String.format("cd /sys/class/gpio/gpio%d/ && chmod 777 value", ledId));
     }
 

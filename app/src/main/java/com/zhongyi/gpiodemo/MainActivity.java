@@ -80,9 +80,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * 让led可执行
      */
     private void execLed() {
-        CommandExec.execRedLed(LED_WHITE);
-        CommandExec.execRedLed(LED_RED);
-        CommandExec.execRedLed(LED_GREEN);
+        CommandExec.execLed(LED_WHITE);
+        CommandExec.execLed(LED_RED);
+        CommandExec.execLed(LED_GREEN);
     }
 
     /**
